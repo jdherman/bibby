@@ -1,7 +1,7 @@
 ##bibby
 Search for BibTeX citations from the command line, using the CrossRef API
 
-Uses only native *nix tools: curl, grep, and sed. Even works in Cygwin. This could be a lot cleaner with other tools like [jq](link) for json parsing. **Warning: doesn't always work.**
+Uses only native *nix tools: curl, grep, and sed. Even works in Cygwin. This could be a lot cleaner with other tools like [jq](link) for json parsing. __Warning: doesn't always work.__
 
 Example usage:
 ```
