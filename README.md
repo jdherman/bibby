@@ -5,7 +5,7 @@ Uses only native *nix tools: curl, grep, and sed. Even works in Cygwin. This cou
 
 Example usage:
 ```
-./bibble.sh "deb 2002 NSGA-II"
+./bibby.sh "deb 2002 NSGA-II"
 ```
 
 Output:
