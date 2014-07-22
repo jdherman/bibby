@@ -45,7 +45,7 @@ do
         text)
           FORMAT='text/x-bibliography'
           ;;
-        ?)
+        *)
           usage
           exit
           ;;
@@ -54,7 +54,7 @@ do
     n)
       NUMBER=$OPTARG
       ;;
-    ?)
+    *)
       usage
       exit
       ;;
