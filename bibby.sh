@@ -67,7 +67,7 @@ then
      exit 1
 fi
 
-JSON=`curl -G -s "http://search.labs.crossref.org/dois" --data-urlencode "q=$QUERY" -d "rows=$NUMBER"`
+JSON=`curl -G -s "http://search.crossref.org/dois" --data-urlencode "q=$QUERY" -d "rows=$NUMBER"`
 DOI=`echo $JSON | grep -o -m $NUMBER 'http\:\/\/dx\.doi\.org\/[^"]*' | sed 's/http:\/\/dx.doi.org\///g'`
 DOI=($DOI)
 
